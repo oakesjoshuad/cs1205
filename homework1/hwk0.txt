@@ -1,0 +1,5 @@
+Welcome to Dev-C++
+This is my very first program for this class.
+Thanks.
+Yours,
+Joshua Oakes

@@ -1,0 +1,51 @@
+switch:hwk2 joshua$ ./Testhwk2
+Enter the A coefficient
+1
+Enter the B coefficient
+0
+Enter the C coefficient
+-4
+The polynomial 1X**2-4 has two real roots. The roots are 2 and -2.
+switch:hwk2 joshua$ ./Testhwk2
+Enter the A coefficient
+1
+Enter the B coefficient
+0
+Enter the C coefficient
+-1
+The polynomial 1X**2-1 has two real roots. The roots are 1 and -1.
+switch:hwk2 joshua$ ./Testhwk2
+Enter the A coefficient
+1
+Enter the B coefficient
+-2
+Enter the C coefficient
+-3
+The polynomial 1X**2-2X-3 has two real roots. The roots are 3 and -1.
+switch:hwk2 joshua$ ./Testhwk2
+Enter the A coefficient
+1
+Enter the B coefficient
+0
+Enter the C coefficient
+1
+The polynomial 1X**2+1 has no real roots.
+switch:hwk2 joshua$ ./Testhwk2
+Enter the A coefficient
+1
+Enter the B coefficient
+-2
+Enter the C coefficient
+-8
+The polynomial 1X**2-2X-8 has two real roots. The roots are 4 and -2.
+switch:hwk2 joshua$ ./Testhwk2
+Enter the A coefficient
+0
+		A coefficient improperly set to 0, setting to 1...
+
+Enter the B coefficient
+0
+Enter the C coefficient
+-4
+The polynomial 1X**2-4 has two real roots. The roots are 2 and -2.
+switch:hwk2 joshua$ 

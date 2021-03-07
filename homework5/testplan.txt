@@ -1,0 +1,64 @@
+// Beginning of Source
+// Name: Joshua Oakes
+// ID No: 2411639
+// Course Number and Section: 1205-601
+// Date: 06/02/2011
+// Assignment: Homework 5 Test Plan
+
+// Input all the dates consecutively
+Input: 23 6 2011 
+Output: 6/24/2011
+
+Input:28 2 2011 
+Output: 3/1/2011
+
+Input: 28 2 2012
+Output: 2/29/2012
+
+Input: 31 12 2011 
+Output: 1/1/2012
+
+Input: -1
+Output: program exits
+
+// Invalid date
+Input: 29 2 2009
+Output: Invalid date, enter date
+
+Input: 32 12 2008
+Output: Invalid date, enter date
+
+Input: 12 -1 -1
+Output: Invalid date, enter date
+
+Input: 12 12 -1
+Output: Invalid date, enter date
+
+Input: 12 12 1799
+Output: Invalid date, enter date
+
+Input: 12 12 2101
+Output: Invalid date, enter date
+
+Input: -1
+Output: program exits
+
+// End of year
+Input: 31 12 2008
+Output: 1/1/2009
+
+Input: 31 12 2009
+Output: 1/1/2010
+
+Input: -1
+Output: program exits
+
+// End of month
+Input: 31 1 2009
+Output: 2/1/2009
+
+Input: 28 2 2009
+Output: 3/1/2009
+
+Input: -1
+Output: program exits

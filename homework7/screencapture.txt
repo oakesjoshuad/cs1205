@@ -1,0 +1,130 @@
+// Homework 7 Screen Capture
+// Note: resize your command window slightly and all the rows and columns align to indicate index
+
+// Array size boundary
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+17 39 62 65 5 32 21 97 92 21 46 18 65 41 38 50 21 41 46 38
+
+       Original values: 17 39 62 65  5 32 21 97 92 21 46 18 65 41 38 50 21 41 46 38 
+  Sorted w/ duplicates:  5 17 18 21 21 21 32 38 38 39 41 41 46 46 50 62 65 65 92 97 
+ Sorted w/o duplicates:  5 17 18 21 32 38 39 41 46 50 62 65 92 97 
+
+// Array size - 1 boundary
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+77 84 64 41 57 14 77 86 94 5 25 50 72 77 87 39 55 73 25 -1
+
+       Original values: 77 84 64 41 57 14 77 86 94  5 25 50 72 77 87 39 55 73 25 
+  Sorted w/ duplicates:  5 14 25 25 39 41 50 55 57 64 72 73 77 77 77 84 86 87 94 
+ Sorted w/o duplicates:  5 14 25 39 41 50 55 57 64 72 73 77 84 86 87 94 
+
+// Array size 2
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+42 7 -1
+
+       Original values: 42  7 
+  Sorted w/ duplicates:  7 42 
+ Sorted w/o duplicates:  7 42 
+
+// Array size 1
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+5 -1
+
+       Original values:  5 
+  Sorted w/ duplicates:  5 
+ Sorted w/o duplicates:  5 
+
+// Array numbers in increasing order no duplicates
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+1 2 3 4 5 6 7 8 9 10 -1
+
+       Original values:  1  2  3  4  5  6  7  8  9 10 
+  Sorted w/ duplicates:  1  2  3  4  5  6  7  8  9 10 
+ Sorted w/o duplicates:  1  2  3  4  5  6  7  8  9 10 
+
+// Array numbers increasing in order with duplicates
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+ 1 2 2 3 4 4 5 6 6 7 8 8 9 10 10 -1
+
+       Original values:  1  2  2  3  4  4  5  6  6  7  8  8  9 10 10 
+  Sorted w/ duplicates:  1  2  2  3  4  4  5  6  6  7  8  8  9 10 10 
+ Sorted w/o duplicates:  1  2  3  4  5  6  7  8  9 10 
+
+// Array numbers decreasing order with no duplicates
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+10 9 8 7 6 5 4 3 2 1 -1
+
+       Original values: 10  9  8  7  6  5  4  3  2  1 
+  Sorted w/ duplicates:  1  2  3  4  5  6  7  8  9 10 
+ Sorted w/o duplicates:  1  2  3  4  5  6  7  8  9 10 
+
+// Array numbers decreasing order with duplicates
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+10 10 9 8 8 7 6 6 5 4 4 3 2 2 1 -1
+
+       Original values: 10 10  9  8  8  7  6  6  5  4  4  3  2  2  1 
+  Sorted w/ duplicates:  1  2  2  3  4  4  5  6  6  7  8  8  9 10 10 
+ Sorted w/o duplicates:  1  2  3  4  5  6  7  8  9 10 
+
+// Array numbers increasing with few out of order
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+1 3 2 4 6 5 7 8 10 9 -1
+
+       Original values:  1  3  2  4  6  5  7  8 10  9 
+  Sorted w/ duplicates:  1  2  3  4  5  6  7  8  9 10 
+ Sorted w/o duplicates:  1  2  3  4  5  6  7  8  9 10 
+
+// Array all numbers different
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+28 57 31 63 53 23 29 84 17 94 -1
+
+       Original values: 28 57 31 63 53 23 29 84 17 94 
+  Sorted w/ duplicates: 17 23 28 29 31 53 57 63 84 94 
+ Sorted w/o duplicates: 17 23 28 29 31 53 57 63 84 94 
+
+// Array all numbers the same
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+42 42 42 42 42 42 42 42 42 42 -1
+
+       Original values: 42 42 42 42 42 42 42 42 42 42 
+  Sorted w/ duplicates: 42 42 42 42 42 42 42 42 42 42 
+ Sorted w/o duplicates: 42 
+
+// Array all numbers the same except the first
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+42 7 7 7 7 7 7 7 7 7 -1
+
+       Original values: 42  7  7  7  7  7  7  7  7  7 
+  Sorted w/ duplicates:  7  7  7  7  7  7  7  7  7 42 
+ Sorted w/o duplicates:  7 42 
+
+// Array all numbers the same except the last
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+42 42 42 42 42 42 42 42 42 7 -1
+
+       Original values: 42 42 42 42 42 42 42 42 42  7 
+  Sorted w/ duplicates:  7 42 42 42 42 42 42 42 42 42 
+ Sorted w/o duplicates:  7 42 
+
+// Array first and last numbers the same all others different
+switch:hwk7 joshua$ ./Testhwk7
+Enter between 1 and 20 positive integers, a negative integer ends input:
+7 42 28 57 31 63 53 23 29 7 -1
+
+       Original values:  7 42 28 57 31 63 53 23 29  7 
+  Sorted w/ duplicates:  7  7 23 28 29 31 42 53 57 63 
+ Sorted w/o duplicates:  7 23 28 29 31 42 53 57 63 
+
+switch:hwk7 joshua$ 

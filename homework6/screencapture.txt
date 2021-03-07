@@ -1,0 +1,122 @@
+// Name: Joshua Oakes
+// ID No: 2411639
+// Course Number and Section: 1205-601
+// Date: 06/02/2011
+// Assignment: Homework 6 Screen Capture
+
+// Boundary size - 1 entries
+switch:hwk6 joshua$ ./Testhwk6
+Enter between 1 and 20 positive integers, 0 ends input:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 0
+table[0]: 1
+table[1]: 2
+table[2]: 3
+table[3]: 4
+table[4]: 5
+table[5]: 6
+table[6]: 7
+table[7]: 8
+table[8]: 9
+table[9]: 10
+table[10]: 11
+table[11]: 12
+table[12]: 13
+table[13]: 14
+table[14]: 15
+table[15]: 16
+table[16]: 17
+table[17]: 18
+table[18]: 19
+
+Number of entries in table: 19
+Sum: 190
+Range: (1 -- 19)
+
+Enter a number: 1
+
+1 Appears 1 time(s)
+
+Enter another number: 0
+switch:hwk6 joshua$
+
+// Boundary size entries
+switch:hwk6 joshua$ ./Testhwk6
+Enter between 1 and 20 positive integers, 0 ends input:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+table[0]: 1
+table[1]: 2
+table[2]: 3
+table[3]: 4
+table[4]: 5
+table[5]: 6
+table[6]: 7
+table[7]: 8
+table[8]: 9
+table[9]: 10
+table[10]: 11
+table[11]: 12
+table[12]: 13
+table[13]: 14
+table[14]: 15
+table[15]: 16
+table[16]: 17
+table[17]: 18
+table[18]: 19
+table[19]: 20
+
+Number of entries in table: 20
+Sum: 210
+Range: (1 -- 20)
+
+Enter a number: 20
+
+20 Appears 1 time(s)
+
+Enter another number: 100
+
+100 Appears 0 time(s)
+
+Enter another number: -1
+
+-1 Appears 0 time(s)
+
+Enter another number: 0
+switch:hwk6 joshua$
+
+// Array size 1 entries
+Enter between 1 and 20 positive integers, 0 ends input:
+5 0
+table[0]: 5
+
+Number of entries in table: 1
+Sum: 5
+Range: (5 -- 5)
+
+Enter a number: 5
+
+5 Appears 1 time(s)
+
+Enter another number: 0
+switch:hwk6 joshua$
+
+// Array size 2 entries
+switch:hwk6 joshua$ ./Testhwk6
+Enter between 1 and 20 positive integers, 0 ends input:
+42 7 0
+table[0]: 42
+table[1]: 7
+
+Number of entries in table: 2
+Sum: 49
+Range: (7 -- 42)
+
+Enter a number: 42
+
+42 Appears 1 time(s)
+
+Enter another number: 7
+
+7 Appears 1 time(s)
+
+Enter another number: 0
+switch:hwk6 joshua$ 

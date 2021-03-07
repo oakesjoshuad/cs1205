@@ -1,0 +1,111 @@
+// Name: Joshua Oakes
+// ID No: 2411639
+// Course Number and Section: 1205-601
+// Date: 06/02/2011
+// Assignment: Homework 6 Test Plan
+
+// Boundary size - 1 entries
+Input: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 0
+Output: 
+	table[0]: 1
+	table[1]: 2
+	table[2]: 3
+	table[3]: 4
+	table[4]: 5
+	table[5]: 6
+	table[6]: 7
+	table[7]: 8
+	table[8]: 9
+	table[9]: 10
+	table[10]: 11
+	table[11]: 12
+	table[12]: 13
+	table[13]: 14
+	table[14]: 15
+	table[15]: 16
+	table[16]: 17
+	table[17]: 18
+	table[18]: 19
+
+	Number of entries in table: 19
+	Sum: 190
+	Range: (1 -- 19)
+
+Search input: 1
+Search output: 
+	1 appears 1 time(s)
+Search input: 0
+	program terminates as the sentinal value 0 is entered
+	
+// Boundary size entries
+Input: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Output:
+	table[0]: 1
+	table[1]: 2
+	table[2]: 3
+	table[3]: 4
+	table[4]: 5
+	table[5]: 6
+	table[6]: 7
+	table[7]: 8
+	table[8]: 9
+	table[9]: 10
+	table[10]: 11
+	table[11]: 12
+	table[12]: 13
+	table[13]: 14
+	table[14]: 15
+	table[15]: 16
+	table[16]: 17
+	table[17]: 18
+	table[18]: 19
+	table[19]: 20
+
+	Number of entries in table: 20
+	Sum: 210
+	Range: (1 -- 20)
+	
+Search input: 20
+Search output:
+	20 appears 1 time(s)
+Search input: 100
+	100 appears 0 time(s)
+Search input: -1
+Search output:
+	-1 appears 0 time(s)
+Search input: 0
+	program terminates as the sentinal value 0 is entered
+	
+// Array of size 1
+Input: 5 0
+Output:
+	table[0]: 5
+
+	Number of entries in table: 1
+	Sum: 5
+	Range: (5 -- 5)
+
+Search input: 5
+Search output:
+	5 appears 1 time(s)
+Search input: 0
+	program terminates as the sentinal value 0 is entered
+	
+// Array of size 2
+Input: 42 7 0
+Output:
+	table[0]: 42
+	table[1]: 7
+
+	Number of entries in table: 2
+	Sum: 49
+	Range: (7 -- 42)
+
+Search input: 42
+Search output:
+	42 appears 1 time(s)
+Search input: 7
+  7 appears 1 time(s)
+Search input: 0
+Search output:
+	program terminates as the sentinal value 0 is entered

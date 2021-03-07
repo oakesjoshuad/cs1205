@@ -1,0 +1,48 @@
+// Beginning of Source
+// Name: Joshua Oakes
+// ID No: 2411639
+// Course Number and Section: 1205-601
+// Date: 06/02/2011
+// Assignment: Homework 5 Screen Capture
+
+// Input all dates correctly and consecutively
+switch:hwk5 joshua$ ./Testhwk5
+Enter a date (day, month, year): 23 6 2011
+6/24/2011
+Enter a date (day, month, year): 28 2 2011
+3/1/2011
+Enter a date (day, month, year): 28 2 2012
+2/29/2012
+Enter a date (day, month, year): 31 12 2011
+1/1/2012
+Enter a date (day, month, year): -1
+switch:hwk5 joshua$
+ 
+// Input invalid dates
+switch:hwk5 joshua$ ./Testhwk5
+Enter a date (day, month, year): 29 2 2009
+Invalid Date, Enter a date (day, month, year): 32 12 2008
+Invalid Date, Enter a date (day, month, year): 12 -1 -1
+Invalid Date, Enter a date (day, month, year): 12 12 -1
+Invalid Date, Enter a date (day, month, year): 12 12 1799
+Invalid Date, Enter a date (day, month, year): 12 12 2101
+Invalid Date, Enter a date (day, month, year): -1
+switch:hwk5 joshua$ 
+
+// Input end of year dates
+switch:hwk5 joshua$ ./Testhwk5
+Enter a date (day, month, year): 31 12 2008
+1/1/2009
+Enter a date (day, month, year): 31 12 2009
+1/1/2010
+Enter a date (day, month, year): -1
+switch:hwk5 joshua$ 
+
+// Input end of month dates
+switch:hwk5 joshua$ ./Testhwk5
+Enter a date (day, month, year): 31 1 2009
+2/1/2009
+Enter a date (day, month, year): 28 2 2009
+3/1/2009
+Enter a date (day, month, year): -1
+switch:hwk5 joshua$ 
